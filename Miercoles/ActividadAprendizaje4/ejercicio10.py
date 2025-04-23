@@ -7,3 +7,7 @@
 #• Si el mes es enero, marzo, mayo, julio, agosto, octubre, diciembre y el día > 31,
 # mostrar error
 
+<<<<<<< HEAD
+=======
+    
+>>>>>>> f8b2503d7faa496ae3f26b79b5f3488c736573d3
