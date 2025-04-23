@@ -7,5 +7,4 @@ if (velocidad > 120):
     print("REDUZCA LA VELOCIDAD")
 else:
     print("Velocidad dentro de los limites permitidos")
-#fin del programa
-
+print ("**************************************************")
