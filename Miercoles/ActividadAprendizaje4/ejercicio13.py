@@ -4,7 +4,7 @@
 #• Realizar la acción correspondiente según la opción ingresada.
 #• Mostrar nuevo saldo
 
-print("*Bienvenido al sistema bancario Cordobas*")
+print("**Bienvenido al sistema bancario Cordobas**")
 saldo = float(input("Ingrese su saldo inicial en cordobas: "))
 print("Seleccione una opción:")
 print("1. Vaciar cuenta")
