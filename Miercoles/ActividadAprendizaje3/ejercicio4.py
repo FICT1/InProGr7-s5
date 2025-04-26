@@ -12,12 +12,12 @@ print("**Cálculo del consumo de combustible**")
 distancia_recorrida = float(input("Ingrese la distancia recorrida en kilómetros: "))
 litros_consumidos = float(input("Ingrese la cantidad de litros consumidos: "))
 rendimiento = distancia_recorrida / litros_consumidos
-precio_por_litro = 1.5  
+precio_por_litro = 1.34 #Segun google  
 gasto_total = litros_consumidos * precio_por_litro
 print("**********************************************************************")
-print("La distancia recorrida es de: ", distancia_recorrida, "km")
-print("La cantidad de litros consumidos es de: ", litros_consumidos, "litros")
-print("El precio por litro es de: $", precio_por_litro)
-print("El rendimiento del vehículo es de: ", rendimiento, "km/l")
+print(f"La distancia recorrida es de: {distancia_recorrida}km") 
+print(f"La cantidad de litros consumidos es de:{litros_consumidos} ")
+print(f"El precio por litro es de: $", precio_por_litro)
+print(f"El rendimiento del vehículo es de: ", rendimiento, "km/l")
 print(f"El gasto total en combustible es de: {gasto_total}$")
 print("**********************************************************************")
